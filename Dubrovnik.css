@@ -1,13 +1,16 @@
 body {
   background-image: url("https://whywander.com/wp-content/uploads/2014/07/dubrovnik-.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 35%;
+  background-size: 100% 45%;
   font-family: Arial;
 }
 html {
     background-image: url("http://clipart-library.com/images/Acbr5MX9i.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+.navbar {
+    text-align: center;
 }
 ul {
     margin: 0px;
@@ -16,7 +19,8 @@ ul {
     color: white;
 }
 ul li {
-    float: left;
+    display: inline-block;
+    position: relative;
     width: 200px;
     height: 40px;
     background-color: black;
@@ -25,7 +29,7 @@ ul li {
     text-align: center;
     font-size: 20px;
     margin-right: 60px;
-}
+  }
 ul li a {
     text-decoration: none;
     color: white;
@@ -36,6 +40,7 @@ ul li a:hover {
 }
 ul li ul li {
     display: none;
+    position: absolute;
 }
 ul li:hover ul li {
     display: block;
