@@ -1,7 +1,7 @@
 body {
   background-image: url("https://whywander.com/wp-content/uploads/2014/07/dubrovnik-.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 45%;
+  background-size: 100% 35%;
   font-family: Arial;
 }
 html {
@@ -52,14 +52,13 @@ ul li:hover ul li {
 .main-info{
     font-size: 20px;
 }
-.pic-info {
-    font-size: 20px;
-    color: Black;
-}
 img {
-    height: 400px;
-    width: 700px;
+    height: 350px;
+    width: 600px;
     border: 5px solid black;
+}
+.main-street{
+
 }
 
 </style>
