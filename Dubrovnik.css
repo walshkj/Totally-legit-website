@@ -1,7 +1,7 @@
 body {
   background-image: url("https://whywander.com/wp-content/uploads/2014/07/dubrovnik-.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 35%;
+  background-size: 100% 650px;
   font-family: Arial;
 }
 html {
@@ -54,8 +54,22 @@ ul li:hover ul li {
 }
 img {
     height: 350px;
-    width: 600px;
     border: 5px solid black;
 }
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 620px;
+  padding: 10px;
+}
 
-</style>
+.column img {
+  margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
