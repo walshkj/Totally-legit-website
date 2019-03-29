@@ -11,6 +11,7 @@ html {
 }
 .navbar {
     text-align: center;
+    margin-left: 15px
 }
 ul {
     margin: 0px;
@@ -28,7 +29,7 @@ ul li {
     line-height: 40px;
     text-align: center;
     font-size: 20px;
-    margin-right: 60px;
+    margin-right: 50px;
   }
 ul li a {
     text-decoration: none;
@@ -51,6 +52,7 @@ ul li:hover ul li {
 }
 .main-info{
     font-size: 20px;
+    text-align: center;
 }
 img {
     height: 350px;
@@ -59,7 +61,7 @@ img {
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
-  width: 620px;
+  width: 630px;
   padding: 10px;
 }
 
@@ -72,4 +74,9 @@ img {
   content: "";
   display: table;
   clear: both;
+}
+.copyright {
+  bottom: 8px;
+  left: 10px;
+  font-size: 18px;
 }
