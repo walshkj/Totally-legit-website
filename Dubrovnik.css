@@ -63,6 +63,7 @@ img {
   float: left;
   width: 630px;
   padding: 10px;
+  margin-left: 200px
 }
 
 .column img {
@@ -79,4 +80,13 @@ img {
   bottom: 8px;
   left: 10px;
   font-size: 18px;
+}
+.column1 {
+  float: right;
+  width: 630px;
+  padding: 10px;
+  margin-right: 200px
+}
+.column1 img {
+  margin-top: 12px;
 }
